@@ -1,58 +1,10 @@
 {
-  "tinkoff": {
-    "host": "178.248.236.218",
+  "rkn.gov.ru_HTTPS": {
+    "host": "https://rkn.gov.ru",
     "port": 443,
     "executor": "exec",
     "app": "bombardier",
     "durationSecs": 60,
     "enabled": false
-  },
-  "glonass_94.79.10.194": {
-    "host": "94.79.10.194",
-    "port": 443,
-    "executor": "exec",
-    "app": "dripper",
-    "durationSecs": 60,
-    "enabled": false,
-    "args": [
-      "-m",
-      "tcp"
-    ]
-  },
-  "31.172.67.209": {
-    "host": "31.172.67.209",
-    "port": 443,
-    "executor": "exec",
-    "app": "bombardier",
-    "durationSecs": 60,
-    "enabled": false
-  },
-  "91.227.52.39": {
-    "host": "91.227.52.39",
-    "port": 443,
-    "executor": "exec",
-    "app": "bombardier",
-    "durationSecs": 60,
-    "enabled": false
-  },
-  "91.200.28.39": {
-    "host": "91.200.28.39",
-    "port": 443,
-    "executor": "exec",
-    "app": "bombardier",
-    "durationSecs": 60,
-    "enabled": false
-  },
-  "webmoney-http-4": {
-    "host": "https://51.254.57.77",
-    "port": 443,
-    "executor": "exec",
-    "app": "dripper",
-    "durationSecs": 60,
-    "enabled": true,
-    "args": [
-      "-m",
-      "tcp"
   }
 }
-

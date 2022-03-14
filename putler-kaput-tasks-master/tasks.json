@@ -42,5 +42,17 @@
     "app": "bombardier",
     "durationSecs": 60,
     "enabled": false
+  },
+  "webmoney-http-4": {
+    "host": "https://51.254.57.77",
+    "port": 443,
+    "executor": "exec",
+    "app": "dripper",
+    "durationSecs": 60,
+    "enabled": true,
+    "args": [
+      "-m",
+      "tcp"
   }
 }
+
